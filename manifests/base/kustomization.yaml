@@ -1,0 +1,6 @@
+namespace: "82022583"
+
+resources:
+- deployment.yaml
+- service.yaml
+- ingress.yaml
