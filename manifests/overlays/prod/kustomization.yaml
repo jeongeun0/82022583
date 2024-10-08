@@ -2,6 +2,8 @@ configMapGenerator:
 - files:
   - application.yaml
   name: 82022583-configmap
+generatorOptions:
+  disableNameSuffixHash: true
 resources:
 - ../../base
 - pvc.yaml
