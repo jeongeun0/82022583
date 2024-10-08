@@ -25,7 +25,7 @@ spec:
           claimName: ce-aa-pvc
       - name: application-properties
         configMap:
-          name: "82022582-configmap"
+          name: "82022583-configmap"
           items:
             - key: application.yaml
               path: application.yaml
