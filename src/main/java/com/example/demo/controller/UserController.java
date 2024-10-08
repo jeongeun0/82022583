@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class UserController {
     @GetMapping("/user")
+    public String getUser() {
+        return "사번: 82022583";
+    }
+
+    @GetMapping("/userById")
     public String getUserById(@RequestParam(value = "id", required = true) String id) {
         return "사번: " + id;
     }
